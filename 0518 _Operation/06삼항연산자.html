@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>삼항연산자</title>
+</head>
+<body>
+    <h2>삼항연산자</h2>
+    <p>
+       조건식에 따른 참,거짓에 따라 반환값이 달라지는 연산자<br>
+
+       조건식 ?  결과1 : 결과2<br>
+       참이면 결과1실행<br>
+       거짓이면 결과2실행<br>
+
+       조건식 && 결과1<br>
+       조건식이 참일때만 결과1을 실행<br>
+       조건식이 거짓이면 실행하지않음.<br>
+    </p>
+    <script>
+        'use strict';
+    
+        const a1 = Number(prompt('첫번째 숫자를 입력하세요'));
+        const a2 = Number(prompt('두번째 숫자를 입력하세요'));
+
+        const result = a1 > a2 ? a1 : a2;
+        document.write(`<b>입력한 두수에서 큰수는 ${result}<b>`)
+        console.log(result);
+        
+        
+    </script>
+</body>
+</html>

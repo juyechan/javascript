@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>논리연산자</title>
+</head>
+<body>
+    <h2>논리연산자</h2>
+    <p>
+       논리 연산자는 주어진 논리식을 판단하여 참과 거짓을 반환합니다.<br>
+
+       and(&&) 연산 : 두 논리식 모두 참이면 참을 반환하는 연산자 <br>
+       or(||) 연산 : 두 논리식 중 하나라도 참이면 참을 반환하는 연산자 <br>
+       not(!) 연산자 : 논리식의 결과가 참이면 거짓,거짓이면 참으로 변환하는 연산자
+    </p>
+    <script>
+        'use strict';
+        
+        const b1 = 10;
+        const b2 = 5;
+        const b3 = 1
+    
+        let result1 = b1 == b2;
+        let result2 = b1 >= b2;
+        console.log(result1);
+        console.log(result2);
+        console.log(`result1 && result2: ${result1 && result2}`);
+        console.log(`result1 || result2: ${result1 || result2}`);
+        console.log(!result1);
+        
+    </script>
+</body>
+</html>
